@@ -1,0 +1,164 @@
+/* common apply */
+
+@import url("../fonts/font.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+a,p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background: rgb(8, 9, 35);
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+/* main design start from here */
+
+.banner{
+    margin-top: 35px;
+    width: 75%;
+    height: 90vh;
+    border: 2px solid rgba(245, 245, 245, 0.326);
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: 100%;
+    position: relative;
+}
+/* second css */
+
+/* position absulte */
+.slider_main {
+    position: absolute;
+    top: 10vh;
+    left: -12px;
+    width: 103%;
+    height: 100%;
+  }
+
+.slider_second_containt {
+    position: absolute;
+    top: 48%;
+    left: 16%;
+  }
+
+
+.slider_second_containt h1{
+    font-family: Anton;
+    color: white;
+}
+.slider_second_containt span{
+    padding-right: 7px;
+    border-right: 1px solid white;
+    margin-right: 7px;
+    color: white;
+    font-family: Abel;
+}
+.slider_second_containt span:nth-child(2){
+    border-right: none;
+}
+.slider_second_containt a{
+    background: linear-gradient(45deg, rgb(42, 94, 94),rgb(40, 96, 40));
+    border: none;
+    color: white;
+    display: inline-block;
+    transition: ease-in-out .3s;
+    padding: 9px 20px;
+    border-radius: 2px;
+    margin-top: 4px;
+    width: 45%;
+    text-align: center;
+    font-family: Abel;
+    margin-top: 15px;
+}
+.slider_second_containt a:hover{
+    background: linear-gradient(45deg, rgb(133, 74, 156),rgb(150, 142, 69));
+    color: white;
+    transform: scale(1.03);
+}
+
+.white_smoke {
+    width: 81%;
+    height: 70vh;
+    background: whitesmoke;
+    border-radius: 20px;
+    opacity: 20%;
+    position: absolute;
+    left: 9%;
+    top: 13%;
+  }
+
+/* manu */
+
+.nav_manu {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    width: 92%;
+    z-index: 99999;
+  }
+
+
+.nav_manu a{
+   font-family: Josefin;
+   color: white;
+   transition: ease-in-out .4s ;
+}
+.nav_manu a:hover{
+    transform: scale(1.02);
+    color: white;
+}
+
+.nav_manu a{
+    color: white !important;
+}
+.topleft{
+    font-size: 28px;
+}
+.topleft_phone{
+    display: none;
+}
+.manu_center{
+ margin-left: 18%;
+}
+.manu_right{
+    margin-left: 93%;
+}
+.manu_right a:nth-child(1){
+    padding-right: 15px;
+}
+.navbar_icon{
+    color: white !important;
+    /* background-color: white !important; */
+}
+/* about page css */
+.about_section{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+/* mobile speacial */
+
+.mobile_opacity{
+    display: none;
+}
+
+
+
+/* about vlog page css */
+/* about contact page css */
